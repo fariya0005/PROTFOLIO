@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body data-spy="scroll" data-target=".main-nav">
+    <!--Section menu start-->
+    <section class="section-menu">
+      <nav class="navbar main-nav" role="navigation">
+        <div class="container" id="bar-menu">
+          <div class="navbar-header" id="entete">
+            <button class="navbar-toggle collapsed" data-target="#menu" data-toggle="collapse" role="button">
+              <span class="sr-only"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+    
+          </div>
+          <div class="collapse navbar-collapse navigation" id="menu" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about-me" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+    <main>
+        <section id="home" class="home-section">
+            <h2>~Welcome to My Portfolio~</h2>
+            <p>Explore my work and get in touch!</p>
+          </section>
+        <section class="about-me" id="about-me">
+            <div class="about-me-content">
+                <div class="about-me-image">
+                    <img src="profile-image.jpg" alt="Profile Image">
+                </div>
+                <div class="about-me-text">
+                    <h2 class="section-heading">~ About Me ~ </h2>
+                    <p class="section-content">I am Fariya Afrin.I am a passionate web developer with experience in HTML, CSS, and JavaScript. I love creating unique and interactive websites that provide an exceptional user experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="section-heading">~ Projects ~ </h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1" class="project-image">
+                    <h3 class="project-title">Project 1</h3>
+                    <p class="project-description">L.</p>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2" class="project-image">
+                    <h3 class="project-title">Project 2</h3>
+                    <p class="project-description">L.</p>
+                </div>
+                <div class="project">
+                    <img src="project3.jpg" alt="Project 3" class="project-image">
+                    <h3 class="project-title">Project 3</h3>
+                    <p class="project-description">Lo.</p>
+                </div>
+            </div>
+        </section>      
+        <section class="contact" id="contact">
+            <h2 class="section-heading">~ Contact ~ </h2>
+            <div class="social-links">
+                <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.github.com"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            </div>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required class="form-input">
+                <input type="email" name="email" placeholder="Your Email" required class="form-input">
+                <textarea name="message" placeholder="Your Message" required class="form-input"></textarea>
+                <button type="submit" onclick="this.style.backgroundColor = '#555'">Send Message</button>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
